@@ -1,0 +1,7 @@
+(:name           "gatk")
+(:repo           "taffish-org/gatk")
+(:author         "KaiyuanHan")
+(:version        "4.6.1.0")
+(:intro          "Variant Discovery in High-Throughput Sequencing Data")
+(:dependencies)
+(:functions      "gatk")

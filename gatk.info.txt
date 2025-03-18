@@ -1,0 +1,9 @@
+# <gatk:4.6.1.0 | KaiyuanHan | 2025-03-18>
+ARGS
+    <else>
+        gatk
+    <main>
+        gatk ::*APP-ARGS*::
+RUN
+    <container:taf-gatk-v4.6.1.0:ghcr.io/taffish-org/gatk:4.6.1.0>
+        ::*MAIN*::
